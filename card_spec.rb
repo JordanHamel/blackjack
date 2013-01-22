@@ -32,6 +32,8 @@ describe "Deck" do
     end
   end
 
+  ## it might be useful to test here if the cards are at the bottom of the deck. right now it only checks if they have
+  # been returned at all
   describe "#remove" do
     it "removes x cards from play and puts them at the bottom of the deck" do
       deck.take(3)
